@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+
+# Environment - NEVER commit this
+.env
+.env.local
+.env.*.local
+
+# Build output
+build/
+dist/
+.plasmo/
+
+# Scratch/patch scripts
+patch_*.js
+fix.py
+fix*.js
+diagnose.js
+models.json
+
+# OS
+.DS_Store
+Thumbs.db
