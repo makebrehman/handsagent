@@ -3,7 +3,7 @@
   "displayName": "Hands [BETA]",
   "version": "1.4.1",
   "description": "Hands Agent - A Browsing Agent which can perform almost any browsinfg task ,",
-  "author": "Hands Dev",
+  "author": "makebrehman by HandsAgent",
   "scripts": {
     "dev": "plasmo dev --no-cs-reload",
     "build": "plasmo build",

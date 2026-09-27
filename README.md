@@ -1,5 +1,7 @@
 # Hands Agent Extension
 
+*By makebrehman by HandsAgent*
+
 **Hands** is a stealth, strategic browser execution engine. It acts as an autonomous AI agent that lives directly inside your browser, interacting with the web exactly like a human does—clicking, scrolling, typing, and reasoning through complex workflows.
 
 ## 🛡️ Trust & Security Statement
@@ -34,4 +36,4 @@ Please see the [LICENSE](./LICENSE) file for the exact legal terms.
 ### 💼 Commercial Sales & Exemptions
 Want to embed the Hands Agent Extension into your own commercial application, enterprise platform, or SaaS product? 
 
-Contact us at **sales@bilinil.com** to purchase a Commercial Exemption License.
+Contact us at **team@handsagent.dev** to purchase a Commercial Exemption License.
