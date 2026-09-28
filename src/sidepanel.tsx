@@ -956,9 +956,9 @@ export default function SidePanel() {
                       </div>
 
                       <div style={{ display: 'flex', gap: '8px', marginTop: '12px' }}>
-                        {!isPro && (
+                        {!isPro ? (
                           <a 
-                            href="https://hands.app/#pricing"
+                            href="https://gumroad.com/l/pdjyh?wanted=true"
                             target="_blank"
                             rel="noreferrer"
                             className="hands-upgrade-btn"
@@ -983,6 +983,31 @@ export default function SidePanel() {
                               transition: 'transform 0.15s, box-shadow 0.15s'
                             }}>
                             Upgrade
+                          </a>
+                        ) : (
+                          <a 
+                            href="https://app.gumroad.com/library"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="hands-manage-sub-btn"
+                            style={{ 
+                              flex: 1, 
+                              padding: '7px 12px', 
+                              background: 'rgba(255, 255, 255, 0.08)', 
+                              color: 'var(--text)', 
+                              border: '1px solid var(--border)', 
+                              borderRadius: '6px', 
+                              cursor: 'pointer', 
+                              textDecoration: 'none', 
+                              textAlign: 'center', 
+                              fontWeight: 500,
+                              fontSize: '12px',
+                              display: 'inline-flex',
+                              alignItems: 'center',
+                              justifyContent: 'center',
+                              transition: 'background 0.15s, border-color 0.15s'
+                            }}>
+                            Manage / Cancel
                           </a>
                         )}
                         <button 
